@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   devServer: {
-    public: 'bluejay.digital',
+    public: '',
     host: '0.0.0.0',
     disableHostCheck: true
   },
