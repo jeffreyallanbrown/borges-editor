@@ -8,12 +8,11 @@ import { ProjectStructureSidebarComponent } from './project-components/project-s
 import { ViewRoutingModule } from 'src/app/views/views.routing';
 import { TextEditorComponent } from './editor-components/text-editor.component';
 import { QuillModule } from 'ngx-quill';
-import { ProjectFilesComponent } from './project-components/project-files/project-files.component';
 import { AlertComponent } from './alerts/alerts.component';
 
 
 @NgModule({
-  declarations: [ProjectsListItemComponent, ProjectStructureSidebarComponent, TextEditorComponent, ProjectFilesComponent, AlertComponent],
+  declarations: [ProjectsListItemComponent, ProjectStructureSidebarComponent, TextEditorComponent,AlertComponent],
   imports: [
     CommonModule,
     HttpClientModule,
@@ -26,7 +25,6 @@ import { AlertComponent } from './alerts/alerts.component';
     ProjectsListItemComponent,
     ProjectStructureSidebarComponent,
     TextEditorComponent,
-    ProjectFilesComponent,
     AlertComponent
   ]
 })
