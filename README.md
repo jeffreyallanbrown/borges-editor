@@ -3,7 +3,6 @@
 
 <img src="./borges.png" alt="Borges Editor" width="600" />
 
-
 ##### A Writing Toolkit for the 21st Century Writer.
 
 </div>
